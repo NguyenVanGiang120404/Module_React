@@ -10,6 +10,11 @@ import Cart from './Component/Lesson6/Example/Example5/Cart';
 import Search_Box from './BaiTap/UseState/Example1/Search';
 import Todo from './BaiTap/UseState/Example2/Todo';
 import Cart_todo from './BaiTap/UseState/Example3/Cart';
+import User from './Component/Lesson7/bt1/User';
+import Todo_cha from './Component/Lesson7/bt2/Todo';
+import Products from './Component/Lesson7/bt3/Product';
+import Color from './Component/Lesson7/bt4/Color';
+import FontSize from './Component/Lesson7/bt5/Content';
 
 function App() {
  
@@ -24,7 +29,8 @@ function App() {
       {/* <Cart/> */}
       {/* <Search_Box/> */}
       {/* <Todo/> */}
-      <Cart_todo/>
+      {/* <Cart_todo/> */}
+     <FontSize/>
       
     </div>
   )

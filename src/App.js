@@ -7,6 +7,9 @@ import Example2 from './Component/Lesson6/Example/Example2';
 import NewleterterForm from './Component/Lesson6/Example/Example3/NewletterForm';
 import Product from './Component/Lesson6/Example/Example4/product';
 import Cart from './Component/Lesson6/Example/Example5/Cart';
+import Search_Box from './BaiTap/UseState/Example1/Search';
+import Todo from './BaiTap/UseState/Example2/Todo';
+import Cart_todo from './BaiTap/UseState/Example3/Cart';
 
 function App() {
  
@@ -18,7 +21,10 @@ function App() {
       {/* <Example2/> */}
       {/* <NewleterterForm/> */}
       {/* <Product/> */}
-      <Cart/>
+      {/* <Cart/> */}
+      {/* <Search_Box/> */}
+      {/* <Todo/> */}
+      <Cart_todo/>
       
     </div>
   )

@@ -15,22 +15,34 @@ import Todo_cha from './Component/Lesson7/bt2/Todo';
 import Products from './Component/Lesson7/bt3/Product';
 import Color from './Component/Lesson7/bt4/Color';
 import FontSize from './Component/Lesson7/bt5/Content';
+import ProgramingLanguageForm from './Component/Lesson10/ProgramingLanguageForm';
+import SubscribeForm from './BaiTap/ReactForm/Bai1';
+import CommentForm from './BaiTap/ReactForm/Bai2';
+import PersonalInfoForm from './BaiTap/ReactForm/Bai3';
+import FavoriteFoodForm from './BaiTap/ReactForm/Bai4';
+import RegisterForm from './BaiTap/ReactForm/bai5';
+import ProgrammingCourseForm from './BaiTap/ReactForm/Bai6';
+import ConsultingRequestForm from './BaiTap/ReactForm/Bai7';
+import BirthdayCakeOrderForm from './BaiTap/ReactForm/Bai8';
+import ScholarshipForm from './BaiTap/ReactForm/Bai9';
+import ProductReviewForm from './BaiTap/ReactForm/Bai10';
 
 function App() {
  
   return(
     <div>
-
-      {/* <Search/> */}
-      {/* <Select/> */}
-      {/* <Example2/> */}
-      {/* <NewleterterForm/> */}
-      {/* <Product/> */}
-      {/* <Cart/> */}
-      {/* <Search_Box/> */}
-      {/* <Todo/> */}
-      {/* <Cart_todo/> */}
-     <FontSize/>
+     {/* <FontSize/> */}
+     {/* <ProgramingLanguageForm/> */}
+     {/* <SubscribeForm/> */}
+     {/* <CommentForm/> */}
+     {/* <PersonalInfoForm/> */}
+     {/* <FavoriteFoodForm/> */}
+     {/* <RegisterForm/> */}
+     {/* <ProgrammingCourseForm/> */}
+     {/* <ConsultingRequestForm/> */}
+     {/* <BirthdayCakeOrderForm/> */}
+     {/* <ScholarshipForm/> */}
+     <ProductReviewForm/>
       
     </div>
   )
